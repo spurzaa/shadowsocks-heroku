@@ -26,7 +26,8 @@ case "$AppName" in
 		export DOMAIN="$AppName"
 		;;
 	*)
-		export DOMAIN="$AppName.herokuapp.com"
+# 		export DOMAIN="$AppName.herokuapp.com"
+		export DOMAIN="$AppName.onrender.com"
 		;;
 esac
 
